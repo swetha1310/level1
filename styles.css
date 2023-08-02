@@ -1,0 +1,340 @@
+h1 {
+   margin: 0;
+   box-sizing: border-box;
+   text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+ 
+
+header a{
+    display: flex;
+    margin : 0;
+    color: white;
+    text-decoration: none;
+    padding: 1.5em;
+    border-color: black;
+    background-color: #000000;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 15px;
+}  
+  
+.btn1{
+    background-color: #000000;
+    color: white;
+}
+.btn2{
+    background-color: #4C5FD5 ;
+    color: #fff;
+}
+#flex1{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 2; 
+    display: flex;
+}
+
+ 
+     
+.image{
+    margin: 0px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 0px;
+    
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #dadbf1;
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+.searchbox{
+  border: #000000;
+  margin: 2px;
+}
+form img{
+  width: 20px;
+}
+input{
+     width:60%;
+     font-size: 20px;
+}
+.refer{
+  padding: 50px 0 50px 0;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-gap: 30px;
+  background-color: #fff;
+  color: #444;
+  justify-content: center;
+width: 100%;
+}
+.box{
+  background-color: #fff;
+  color: #444f  ;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 90%;
+  
+}
+footer{
+   margin:0;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-gap: 10px;
+    background-color: #000000;
+    color: #fff;
+    justify-content:  center;
+    padding: 10px;
+
+}
+.foot{
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+  
+}
+footer a {
+ 
+  color: #fff;
+  font-size: 80%;
+}
+ 
+ 
+div a{
+    text-decoration: none;
+}
+
+
+@media screen  and (max-width: 940px){
+
+  footer{
+    margin:0;
+     display: grid;
+     grid-template-columns: 120px  120px 120px 120px;
+     grid-gap: 10px;
+     background-color: #000000;
+     color: #fff;
+     justify-content: center;
+     padding:  10px 25px;
+  
+  }
+  .foot{
+  
+   padding: 5px;
+   font-size: 80%;
+   
+  }
+  footer a {
+  
+   color: #fff;
+   font-size: 80%;
+  }
+  
+  
+  div a{
+     text-decoration: none;
+  }
+}
+@media screen  and (max-width: 540px){
+  footer{
+    margin:0;
+     display: grid;
+     grid-template-columns: 150px 150px;
+     grid-gap: 10px;
+     background-color: #000000;
+     color: #fff;
+     justify-content: center;
+     padding:  10px 20px;
+  
+  }
+  .foot{
+  
+   padding: 5px;
+   font-size: 80%;
+   
+  }
+  footer a {
+  
+   color: #fff;
+   font-size: 80%;
+  }
+  
+  
+  div a{
+     text-decoration: none;
+  }
+
+}
+
+@media screen  and (max-width: 470px){
+  .refer{
+    border-color: black;
+    background-color: #000000; 
+    padding: 20px;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: #444;
+    
+    width: 80%;
+  }
+  .box{
+    background-color: #fff;
+    color: #444f  ;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+    font-size: 90%;
+}
+}
+
+@media screen  and (max-width: 440px){
+  header a{
+    display: flex;
+    flex-shrink: 0;
+    margin : 0;
+    color: white;
+    text-decoration: none;
+    padding: 1.5em;
+    border-color: black;
+    background-color: #000000;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 10px;
+}  
+  
+.btn1{
+    background-color: #000000;
+    color: white;
+    font-size: 10px;
+}
+.btn2{
+    background-color: #4C5FD5 ;
+    color: #fff;
+    font-size: 10px;
+}
+#flex1{
+    flex: 3;
+    display: flex;
+}
+nav {
+    flex: 2; 
+    display: flex;
+}
+}
+@media screen  and (max-width: 370px){
+  header a{
+    display: flex;
+     flex-shrink: 0;
+    margin : 0;
+    color: white;
+    text-decoration: none;
+    padding: 1.5em;
+    border-color: black;
+    background-color: #000000;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 9px;
+}  
+  
+.btn1{
+    background-color: #000000;
+    color: white;
+    font-size: 9px;
+}
+.btn2{
+    background-color: #4C5FD5 ;
+    color: #fff;
+    font-size: 9px;
+}
+#flex1{
+    flex: 3;
+    display: flex;
+}
+nav {
+    flex: 2; 
+    display: flex;
+}
+
+form{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #dadbf1;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+.searchbox{
+border: #000000;
+margin: 2px;
+}
+form img{
+width: 15px;
+padding: 0%;
+}
+input{
+   width:60%;
+   font-size: 15px;
+}
+.refer{
+  border-color: black;
+  background-color: #000000; 
+  padding: 20px;
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #444;
+  
+  width: 80%;
+}
+.box{
+  background-color: #fff;
+  color: #444f  ;
+  border-radius: 10px;
+  padding: 0 20px 0 20px;
+  font-size: 90%;
+
+  
+}
+footer{
+  margin:0;
+   display: grid;
+   grid-template-columns: 120px 120px;
+   grid-gap: 10px;
+   background-color: #000000;
+   color: #fff;
+   justify-content: center;
+   padding:  10px 20px;
+
+}
+.foot{
+
+ padding: 5px;
+ font-size: 80%;
+ 
+}
+footer a {
+
+ color: #fff;
+ font-size: 80%;
+}
+
+
+div a{
+   text-decoration: none;
+}
+}
